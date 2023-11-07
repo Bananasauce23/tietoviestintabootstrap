@@ -1,0 +1,81 @@
+:root {
+	--tausta: #F6F4EB;
+	--teksti-vaalea: #F6F4EB;
+}
+
+*sfds {
+	box-sizing: border-box;
+}
+
+header {
+	color: var(--teksti-vaalea);
+	padding: 10px;
+	position: fixed;
+	width: 100%;
+}
+
+header nav {
+	float: right;
+}
+
+header nav a {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+main {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding-top: 3em;
+}
+
+body {
+	background-color: var(--tausta);
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h1, h2 {
+	font-family: "Merriweather", sans-serif;
+}
+
+td {
+	padding-left:5em;
+}
+
+footer {
+	color: var(--teksti-vaalea);
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.otsikko {
+	padding: 1em 0;
+	line-height: 1.2em;
+	color: var(--teksti-vaalea);
+}
+
+.tutkintonimikkeet {
+	padding-left: 1em;
+	border-left: 0.3em solid var(--highlight);
+}
+
+.tutkintonimikkeet > li {
+	list-style-type: none;
+}
+
+.tutkinnonosat h2 {
+	text-align: center;
+}

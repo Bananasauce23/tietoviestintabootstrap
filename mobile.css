@@ -1,0 +1,75 @@
+@media only screen and (min-width: 361px) and (orientation: portrait){
+    header > div.logo, h1 {
+        font-size: 80px;
+    }
+
+    main {
+        font-size: 4vw;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    h1 {
+        line-height: 1.5em;
+        font-size: 1.8em;
+        padding-top: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (orientation: portrait) {
+    td {
+    padding-left:0.5em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    header, 
+    header > div.logo, 
+    header > nav, 
+    header nav a {
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+    h1 {
+        padding-top: 1.5em;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+
+}
+
+@media only screen and (max-height: 360px) and (orientation: landscape) {
+    header > nav a {
+        font-size: 1em;
+    }
+
+    h1 {
+        padding-top: 50px;
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
